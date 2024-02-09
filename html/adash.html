@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+body
+{
+font-family:poppins;
+}
+.side-navbar{
+height:100%;
+width:200px;
+position:fixed;
+z-index:1;
+top:0;
+left:0;
+background-color:#00FFFF;
+overflow-x:hidden;
+padding-top:0px;
+}
+.side-navbar a{
+padding:80px 5px 10px  20px;
+text-decoration:none;
+font-size:15px;
+display:block;
+text-transform:uppercase;
+color:red;
+}
+.side-navbar a:hover{
+color:red;
+}
+.content-area{
+margin-left:230px;
+pading:0 10px;
+}
+
+
+*
+{
+padding: 0;
+margin: 0;
+box-sizing:border-box;
+}
+.menu-bar
+{
+background:#00FFFF;
+text-align:center;
+}
+.menu-bar ul
+{
+display:inline-flex;
+list-style:none;
+color: #fff;
+}
+.menu-bar ul li
+{
+width:120px;
+margin:15px;
+padding:5px;
+}
+.menu-bar ul li a
+{
+
+text-decoration:none;
+color: red;
+
+}
+
+.sub-menu-1
+{
+display:none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+display:block;
+position:absolute;
+background:#B73049;
+margin-top:15px;
+margin-left:-15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+display:block;
+margin:10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+width:150px;
+padding:10px;
+border-bottom: 1px dotted #fff;
+background:transparent;
+border-radius:0;
+text-align:left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+border-bottom:none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+color:#6964EE ;
+}
+
+</style>
+<meta char set="UTF-8">
+<title>Admin Page</title>
+
+</head>
+<body bgcolor="#00FFFF">
+<div class="menu-bar">
+<ul>
+<li><a style="font-family:algerian;font-size:200%;" > Sacred Heart HOSTEL</a></style>
+</li>
+
+ <li>
+ </li>
+ <li>
+ </li>
+ <li>
+ </li>
+ <li>
+ </li>
+ <li>
+ </li>
+ 
+<li><a  href="#">Logout</a>
+<div class="sub-menu-1">
+    <ul>
+<li><a href="/php/out2.php">Logout</a></li>
+    </ul>
+</div>
+</li>
+</ul>
+
+
+      <div class="side-navbar">
+      <a href="/php/datafetch.php">View Student Details</a>
+      <a href="/html/fac.html">Adminstrative Details</a>
+      <a href="/php/dance.php">Student Attendance</a>
+ <a href="/php/mess.php">Mess Menu</a>
+      <a href="/php/fees.php">Hostel fees structure</a>
+ <a href="/html/media.html">S.H SocialMedia</a>
+ <a href="/php/susdate.php">View Suggestions</a>
+</div>
+</div>
+
+        <img class="d-block w-50" src="/images/sjc7.jpg"
+          alt="First slide">
+        
+        <img class="d-block w-50" src="/images/sjc6.jpg"
+          alt="Second slide">
+        
+        <img class="d-block w-50" src="/images/sjc10.jpg"
+          alt="Second slide">
+        
+        <img class="d-block w-50" src="/images/sjc8.jpg"
+          alt="Second slide">
+        
+        <img class="d-block w-10" src="/images/sjc1.jpg"
+          alt="Second slide">
+        
+<footer>
+  <div class="footer"><p>CopyRights</p></div>
+</footer>
+</body>
+</html>
